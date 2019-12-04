@@ -48,18 +48,18 @@ Customers are segmented into 3 different groups based on the sub-category of pro
 
 __Cluster 0 (Convenience)__<br>
 This cluster has the most number of customers at 183151, and the average order per customer is 11.5. We can infer that this segment of customers holds the most one time off customer.<br><br>
-The top sub-categories of product purchased includes frozen meals, soft drinks and packaged produce. We can infer that this cluster of customer prefers convenience and may have litle or no time to prepare their meals from scratch. They cold be from families consisting of working class or young adults who may have limited expertise in preparing meals.<br><br>
+The top sub-categories of product purchased includes frozen meals, soft drinks and packaged produce. We can infer that this cluster of customer prefers convenience and may have litle or no time to prepare their meals from scratch. They cold be from families consisting of working class or young adults who may have limited expertise in preparing meals.<br>
 Promotional items related related to snacks, ready to eat meals or equipment which enable fast and convenient meal preparation can be targeted at this cluster. We can also consider having easy to prepare recipes with fresh products from the store targeting at this cluster of customer. This will increase product interaction for this cluster of customer, and possibly move them to the fresh cluster, increasing diversity to our customer base and at teh same time retain them.
 
 __Cluster 1 (Fresh)__<br>
-This cluster has 21278 customers, and the average order per customer is 47.6. We can infer that this segment of customer are people with time and expertise in preparing more advance meals and they like their items fresh.The absence of ready-to-eat meals and fresh items are amongst the top purchases for this segment of customers.<br><br>
+This cluster has 21278 customers, and the average order per customer is 47.6. We can infer that this segment of customer are people with time and expertise in preparing more advance meals and they like their items fresh.The absence of ready-to-eat meals and fresh items are amongst the top purchases for this segment of customers.<br>
 Membership perks like free fixed routine delivery should they commit to a certain amount of orders in a week. With such membership perks, we can improve customer loyalty and retention.
 
 __Cluster 2 (Babies)__<br>
-This cluster has 1780 customers , and the average order per customer is 45. The most distinct purchase of this segment is the high purchase count of baby food formula.<br><br>
+This cluster has 1780 customers , and the average order per customer is 45. The most distinct purchase of this segment is the high purchase count of baby food formula.<br>
 Baby related promotions or products can be targeted at this segment of customers and we can also consider providing infant care tips with products from our store for this segment of customer to prepare them for their next stage of parenthood.
 
-### Basket Analysis
+## Basket Analysis
 Basket analysis captures patterns appearing frequently together and can be used to recommend items when a customer add an item to their cart. Frequently bought together items can be placed near to each other in brick and mortar shop to improve customer experience when shopping. Other use cases related to this analysis is that the organisation can study the association and consider bringing in new products.<br>
 
 From our analysis through the available data, we uncovered 421 association rules. An interesting discovery is that organic strawberries and organic reduced fat milk are frequently bought together. The organisation can consider introducing Organic Reduced Fat Milk in strawberry flavour to the store based on this and determine the take up rate.
@@ -75,7 +75,7 @@ With these in mind, it is determined that a good way to boost sales is by buildi
 A validation dataset was prepared containing purchases of a customer's last order which was not seen by our model, with the other preceding orders, our model will perform recommendations on products which the customer have not interacted before. A sample of 5 customers was chosen and the recommendation evaluated.
 
 __Customer 1__<br>
-Customer bought Milk Chocolate Almonds in the validation dataset and one of the product our recommender system recommended is Hazel Nuts in Milk Chocolate.<br><br>
+Customer bought Milk Chocolate Almonds in the validation dataset and one of the product our recommender system recommended is Hazel Nuts in Milk Chocolate.<br>
 In this instance, our recommender system recommended two kind of bread twice, which can be better improved for more diversity in the recommendatons
 
 __Customer 3754__<br>
