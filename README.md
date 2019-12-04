@@ -44,19 +44,19 @@ __Customer Retention__<br>
 
 ## Customer Segmentation
 
-Customers are segmented into 3 different groups based on the sub-category of products they purchase.
+Customers are segmented into 3 segments based on the sub-category of products they purchase.
 
 __Cluster 0 (Convenience)__<br>
 This cluster has the most number of customers at 183151, and the average order per customer is 11.5. We can infer that this segment of customers holds the most one time off customer.<br><br>
-The top sub-categories of product purchased includes frozen meals, soft drinks and packaged produce. We can infer that this cluster of customer prefers convenience and may have litle or no time to prepare their meals from scratch. They cold be from families consisting of working class or young adults who may have limited expertise in preparing meals.<br>
+The top sub-categories of product purchased includes frozen meals, soft drinks and packaged produce. We can infer that this cluster of customer prefers convenience and may have litle or no time to prepare their meals from scratch. They cold be from families consisting of working class or young adults who may have limited expertise in preparing meals.<br><br>
 Promotional items related related to snacks, ready to eat meals or equipment which enable fast and convenient meal preparation can be targeted at this cluster. We can also consider having easy to prepare recipes with fresh products from the store targeting at this cluster of customer. This will increase product interaction for this cluster of customer, and possibly move them to the fresh cluster, increasing diversity to our customer base and at teh same time retain them.
 
 __Cluster 1 (Fresh)__<br>
-This cluster has 21278 customers, and the average order per customer is 47.6. We can infer that this segment of customer are people with time and expertise in preparing more advance meals and they like their items fresh.The absence of ready-to-eat meals and fresh items are amongst the top purchases for this segment of customers.<br>
+This cluster has 21278 customers, and the average order per customer is 47.6. We can infer that this segment of customer are people with time and expertise in preparing more advance meals and they like their items fresh.The absence of ready-to-eat meals and fresh items are amongst the top purchases for this segment of customers.<br><br>
 Membership perks like free fixed routine delivery should they commit to a certain amount of orders in a week. With such membership perks, we can improve customer loyalty and retention.
 
 __Cluster 2 (Babies)__<br>
-This cluster has 1780 customers , and the average order per customer is 45. The most distinct purchase of this segment is the high purchase count of baby food formula.<br>
+This cluster has 1780 customers , and the average order per customer is 45. The most distinct purchase of this segment is the high purchase count of baby food formula.<br><br>
 Baby related promotions or products can be targeted at this segment of customers and we can also consider providing infant care tips with products from our store for this segment of customer to prepare them for their next stage of parenthood.
 
 ## Basket Analysis
@@ -88,9 +88,9 @@ __Customer 114401__<br>
 Customer bought a variety of fruit juices and one of the product our recommender system recommended is Coconut and Pineapple Juice
 
 __Customer 200372__<br>
-There are no recommendations which are closed to what the customer purchased in the validation set<br>
+There are no recommendations which are closed to what the customer purchased in the validation set.<br>
 
-a deeper dive into the past purchase of the customer uncovered that the customer had purchased a variety of bread spreads and supplments in the previous orders, and 2 of the products our recommender system recommended is MCT oil which is a supplement of weight loss and energy for exercising and Ghee Vanilla Bean which is butter for spreading bread.
+A deeper dive into the past purchase of the customer uncovered that the customer had purchased a variety of bread spreads and supplments in the previous orders, and 2 of the products our recommender system recommended is MCT oil which is a supplement of weight loss and energy for exercising and Ghee Vanilla Bean which is butter for spreading bread.
 
 ## Next Steps and Future Improvements
 Deploy the recommender system and evaluate the effectiveness based on the take up rate of recommended items and study the result for improvements for the next iteration.<br>
