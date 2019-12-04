@@ -15,28 +15,34 @@ Customer segmentation based on the products they frequently purchased was perfor
 
 Gathered data was split into 6 csv files, and they contain past purchases of customers and product details. Source of the data can be found at [Kaggle](https://www.kaggle.com/c/instacart-market-basket-analysis).
 
-### Data Analysis
+## Data Analysis
 
-From our detailed data analysis, we concluded and recommended the following:<br><br>
+Findings and recommendations from our data analysis as follow:<br><br>
 __Top Product Category__<br>
-Perishables, Organic and Fruits are the top sellers for the organisation. This makes sense as due to their shorter shelf live, they needs to be replenished more often. 
+- Perishables, Organic and Fruits are the top sellers for the organisation. 
+- This makes sense as due to their shorter shelf live, they needs to be replenished more often. 
 
 __Order Size and Reorder Rate__<br>
-Most clients purchase between 3 to 10 products in a single order. The first 10 products added to cart are more likely to be reordered again and the quantity of products sold is highly influenced by their re-order rate.
+- Most clients purchase between 3 to 10 products in a single order. 
+- The first 10 products added to cart are more likely to be reordered again 
+- Quantity of products sold is highly influenced by their re-order rate.
 
 __Strategic Time for Campaigns and Flash Deals__<br>
-Mondays between 9AM to 11AM and Sundays between 9AM to 5PM are peak period when most orders are made, these are the best time for marketing campaigns or flash deals as we will have maximum outreach.
-
-There are no orders coming in between 1AM to 5AM, these are the best time for system maintenance or upgrading.
+- Mondays between 9AM to 11AM and Sundays between 9AM to 5PM are peak period when most orders are made
+- These are the best time for marketing campaigns or flash deals as we will have maximum outreach.
+- There are no orders coming in between 1AM to 5AM, these are good time for system maintenance or upgrading.
 
 __Strategic Push Notification__<br>
-Most of the customers performs weekly or monthly grocery shopping, we can schedule our push notification strategically to encourage purchases. 
+- Most of the customers performs weekly or monthly grocery shopping
+- Push notification can be strategically scheduled to encourage purchases. 
 
 __Customer Retention__<br>
-It is noticed that the organisation have a small group of loyal customer who had made 99 purchased, however it is also noticed that the organisation is not able to retain the customers effectively.<br><br>
-The organisation can look into ways to increase customer retention or look into what could have caused the customers to churn. The organisation can do so by finding out what was done well from the group of loyal customers and reach out to new customers after their fourth order to gather feedback and let the customer's voices be heard.
+- It is noticed that the organisation have a small group of loyal customer who had made 99 purchased
+- However it is also noticed that the organisation is not able to retain the customers effectively
+- The organisation can look into ways to increase customer retention or look into what could have caused the customers to churn. 
+- The organisation can do so by finding out what was done well from the group of loyal customers and reach out to new customers after their fourth order to gather feedback and let the customer's voices be heard.
 
-### Customer Segmentation
+## Customer Segmentation
 
 Customers are segmented into 3 different groups based on the sub-category of products they purchase.
 
@@ -58,7 +64,7 @@ Basket analysis captures patterns appearing frequently together and can be used 
 
 From our analysis through the available data, we uncovered 421 association rules. An interesting discovery is that organic strawberries and organic reduced fat milk are frequently bought together. The organisation can consider introducing Organic Reduced Fat Milk in strawberry flavour to the store based on this and determine the take up rate.
 
-### Improve Sales (Recommender System)
+## Recommender System
 
 With the gaining traction of data privacy, it is foreseen that there will be more challenges ahead in gathering customer's identifiable or possibly demorgraphic profile. Explicit feedbacks like ratings and reviews tends to be skewed towards some level of biasness depending on the circumstances leading to how the rating or feedback was given and difference in expectations of individuals.<br>
 
@@ -86,7 +92,7 @@ There are no recommendations which are closed to what the customer purchased in 
 
 a deeper dive into the past purchase of the customer uncovered that the customer had purchased a variety of bread spreads and supplments in the previous orders, and 2 of the products our recommender system recommended is MCT oil which is a supplement of weight loss and energy for exercising and Ghee Vanilla Bean which is butter for spreading bread.
 
-### Next Steps and Future Improvements
+## Next Steps and Future Improvements
 Deploy the recommender system and evaluate the effectiveness based on the take up rate of recommended items and study the result for improvements for the next iteration.<br>
 
 Add features tags to the products like organic, natural, convenient, fresh, price range, manufacturer for the next iteration of improvement.<br>
